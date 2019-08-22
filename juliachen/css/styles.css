@@ -1,0 +1,431 @@
+/*global*/
+.banner h1 {
+    position: relative;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: #2D3142;
+    background-color: #e8e3e1;
+    font-family: 'Dosis', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Fredericka the Great', cursive;
+}
+
+h1 {
+    font-size: 42px;
+}
+
+h2 {
+    font-size: 36px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 28px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5em;
+    font-family: 'Dosis', sans-serif;
+}
+
+a,
+a:link,
+a:visited {
+    color: #3d464d;
+}
+
+.button,
+.button:link,
+.button:visited {
+    padding: 0.5em 1em;
+    background-color: #ECD44E;
+    border: 2px solid #ECD44E;
+    border-radius: 50px;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #2D3142 !important;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.button:hover {
+    border-color: #cbb4bb;
+    background-color: #a6808c;
+    color: #e8e3e1 !important;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+section {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+/* header */
+.navbar-brand img {
+    width: 60px;
+}
+
+nav a {
+    color: #fff;
+}
+
+header {
+    background-color: #cbb4bb;
+    z-index: 999;
+    width: 100%;
+}
+
+header#home-header {
+    position: fixed;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main h1 {
+    font-family: 'Charmonman', cursive;
+}
+
+main img {
+    border-radius: 50%;
+}
+
+.main {
+    background: linear-gradient(rgba(166, 128, 140, 0.6), rgba(166, 128, 140, 0.45)), url("../images/flower.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    color: #fff;
+    width: 100%;
+    padding-bottom: 85.994px;
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+    background-color: #cbb4bb;
+}
+
+
+
+/*Banner typography animation*/
+.ml11 {
+    font-weight: 900;
+    font-size: 3.5em;
+}
+
+.ml11 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.1em;
+    padding-right: 0.05em;
+    padding-bottom: 0.15em;
+}
+
+.ml11 .line {
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 3px;
+    background-color: #fff;
+    transform-origin: 0 50%;
+}
+
+.ml11 .line1 {
+    top: 0;
+    left: 0;
+}
+
+.ml11 .letter {
+    display: inline-block;
+    line-height: 1em;
+}
+
+/*Working Field*/
+.home #field {
+    background-color: #e8e3e1;
+}
+
+#field {
+    position: relative;
+    background-color: #cbb4bb;
+}
+
+#field #about-position {
+    position: absolute;
+    top: -3.5em;
+}
+
+#field .field-inner {
+    text-align: center;
+}
+
+.field .field-inner {
+    text-align: center;
+}
+
+#field p {
+    margin-bottom: 2em;
+}
+
+
+/*About*/
+/*about section*/
+section#about {
+    background-color: #cbb4bb;
+    color: #fff;
+    position: relative;
+}
+
+#about-me {
+    position: absolute;
+    top: -90px;
+}
+
+/* h2 about */
+.about-content h2,
+#contact h2 {
+    border-left: 10px double #fff;
+
+}
+
+.about-content {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    z-index: 1;
+}
+
+/* about content description */
+.about-content .discription {
+    background-color: #e8e3e1;
+    padding: 3rem;
+    /*    position: absolute;*/
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    left: 15rem;
+    right: -10rem;
+    color: #a6808c;
+}
+
+/*Project*/
+#project {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.project-list .inner,
+.project-list .photo-inner {
+    position: relative;
+    color: #fff;
+    margin-bottom: 2em;
+}
+
+.project-list .inner .inner-content {
+    position: relative;
+}
+
+.project-list .photo-inner img {
+    box-shadow: 1px 1px 4px #a6808c;
+}
+
+.project-list .inner img {
+    border-radius: 15px;
+    box-shadow: 1px 1px 4px #a6808c;
+}
+
+.project-list .back {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.project-list .bg-color {
+    position: absolute;
+    background-color: #2d3142;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.7;
+    border-radius: 15px;
+}
+
+/*Contact*/
+#contact {
+    background-color: #a6808c;
+    color: #fff;
+    position: relative;
+}
+
+#contact-me {
+    position: absolute;
+    top: -90px;
+}
+
+.social-link a {
+    font-size: 1.5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+#contact a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+#contact a:hover {
+    text-decoration: none;
+}
+
+#contact .contact-list {
+    position: relative;
+    padding-left: 3em;
+
+}
+
+#contact span {
+    font-size: 1.5em;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#contact form {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+a.project-link {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.video-container {
+    position: relative;
+    /*    overflow: hidden;*/
+
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    width: 100%;
+}
+
+/* web page */
+.row-style .row {
+    margin-bottom: 2em;
+    border-bottom: 1px solid #cbb4bb;
+    padding-bottom: 2em;
+}
+
+
+/* single post */
+.single-post h2 {
+    text-align: center;
+    margin-top: 1em;
+}
+
+.single-post .pub-data {
+    text-align: right;
+}
+
+@media only screen and (min-width: 768px) {}
+
+@media only screen and (max-width: 767.89px) {
+    main {
+        padding-top: 120px;
+    }
+
+    #about {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .about-img {
+        display: none;
+    }
+
+    .row-style img {
+        margin-bottom: 1em;
+    }
+
+}
+
+@media only screen and (min-width: 576px) {
+    main {
+        height: 100vh;
+    }
+
+    .julia-img {
+        margin: auto;
+    }
+
+    #field .field-inner {
+        position: relative;
+        padding-bottom: 2.5rem;
+    }
+
+    #field .field-inner a {
+        position: absolute;
+        bottom: 0;
+        width: max-content;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .ml11 {
+        font-size: 2rem;
+    }
+
+    main .julia-img {
+        text-align: center;
+        margin-bottom: 3.5rem;
+    }
+
+    main .julia-img img {
+        width: 12rem;
+    }
+
+    #field .field-inner {
+        margin-bottom: 3.5em;
+    }
+
+    #field .field-inner:last-child {
+        margin-bottom: 0;
+    }
+}
