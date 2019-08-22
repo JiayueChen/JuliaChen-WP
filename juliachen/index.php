@@ -32,7 +32,7 @@
     </div>
 </main>
 </div>
-
+<?php get_sidebar(); ?>
 <!-- About -->
 <section id="about">
     <div id="about-me"></div>
@@ -64,7 +64,7 @@
     </div>
 </section>
 
-<?php get_sidebar(); ?>
+
 
 <section id="contact">
     <div id="contact-me"></div>
